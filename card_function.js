@@ -22,6 +22,9 @@ function cardFunction(data){
     totalPrice = totalPrice.toFixed(2);
     totalPriceElement.innerText = totalPrice;
 
+    const textTotal = document.getElementById('Total');
+    textTotal.innerText = totalPrice;
+
     if(totalPrice>=200){
         document.getElementById('secret-input').removeAttribute('disabled');
     }
