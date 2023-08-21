@@ -32,4 +32,6 @@ function cardFunction(data){
 }
 document.getElementById('purchaseButton').addEventListener('click', function(){
     document.getElementById('purchaseButton').setAttribute('disabled', true);
+    document.getElementById('secret-input').setAttribute('disabled', true);
+    document.getElementById('coupon_button').setAttribute('disabled', true);
 })
